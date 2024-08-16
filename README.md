@@ -1,4 +1,5 @@
-# Open Web Analytics Server
+# Open Web Analytics Server - DARKMODE
+![image](https://github.com/user-attachments/assets/f8e10079-b264-4a7e-a8ce-246f30f509ad)
 
 Open Web Analytics is an open source alternative to commercial web analytics tools such as Google Analytics. This software allows you to stay in control of the data you collect about the user of your websites or applications.
 
