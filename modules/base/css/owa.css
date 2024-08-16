@@ -1,14 +1,21 @@
-/* HTML ENTITIES*/
+/* updated to OWA DARKMODE FROM BLUEBRAD */
 
-body {border-color:#cccccc; background-color:; font-family:Helvetica,'Arial'; padding:0; margin: 0;font-size:12px;}
+body {
+border-color:#093444; 
+background-color:#031217; 
+font-family:Helvetica,'Arial'; 
+padding:0; 
+margin: 0;
+font-size:12px;
+Color:#bee4ff;}
 th {padding:6px 6px 6px 6px; text-align:left;}
 td {padding: 2px 2px 2px 2px;}
 legend {font-size:16px;font-weight:bold;}
-fieldset{margin: 7px; padding: 20px; border:1px solid #cccccc;}
+fieldset{margin: 7px; padding: 20px; border:1px solid #093444;}
 div {margin:0;}
 
 .owa a {
-    color: #21759B;
+    color: #29baf0;
 }
 
 .owa a:hover {
@@ -16,38 +23,38 @@ div {margin:0;}
 }
 
 .owa .section {
-    background-color:#ffffff;
+    background-color:#031217;
     margin:20px;
 }
 
 /* COLORS */
 .red {background-color:red;}
 .yellow {background-color:yellow;}
-.green {background-color:green; color:#ffffff;}
+.green {background-color:green; color:#bee4ff;}
 
 /* NAVIGATION */
-#sub_nav {padding:5px; background-color:#cccccc; width=100%; }
+#sub_nav {padding:5px; background-color:#031217; width=100%; }
 .top_level_nav{font-size:20px;}
 .nav_links {list-style:none; margin:0px; padding:0px; }
 .nav_links li {float: left; padding:4px 20px 4px 20px;}
 .nav_links li a {text-decoration: none; }
 .nav_links ul {clear: both;}
 .post-nav {clear: both; margin:0px; padding:0px 0px 5px 0px;}
-.active_nav_link {background-color:#cccccc;}
+.active_nav_link {background-color:#031217;}
 .host_app_nav {background-color:; vertical-align:middle;font-size:18px;padding:4px;}
-#owa_header {border-bottom: 1px solid #9f9f9f; background-color:#FFFFFF; padding:10px; font-size:16px; line-height:55px;}
+#owa_header {border-bottom: 1px solid #9f9f9f; background-color:#031217; padding:10px; font-size:16px; line-height:55px;}
 .owa_logo {float:left;padding-right:30px;  vertical-align: middle;line-height:normal;}
 .owa_navigation {float:left;vertical-align:middle;padding-top:10px;}
 .owa_navigation ul {list-style: none; padding: 0; margin: 0;float:left;padding-top:0px;}
 .owa_navigation li {text-decoration: none; float:left; margin: 2px;}
 .owa_navigation li a {
-    background: url() #fff bottom left repeat-x;
+    background:#031217;
     height: 2em;
     line-height: 2em;
     float: left;
     width: 9em;
     display: block;
-    border: 0 solid #efefef;
+    border: 0 solid #04171e;
     text-decoration: none;
     text-align: center;
     
@@ -55,7 +62,7 @@ div {margin:0;}
 
 #updates {
 	
-	background-color: #ffffff;
+	background-color: #04171e;
 	padding: 20px;
 }
 
@@ -71,7 +78,7 @@ div {margin:0;}
 
 .owa_current{
 	
-	background-color: #e6e6e6;
+	background-color: #04171e;
 }
 
 .owa_nav_icon {
@@ -89,7 +96,7 @@ div {margin:0;}
     border-radius:4px;
     background-color:orange;
     padding:15px 30px 15px 30px;
-    color:#ffffff;
+    color:#bee4ff;
     font-size:18px;
     font-weight:bold;
     border: 1px solid #efefef;
@@ -136,11 +143,11 @@ div {margin:0;}
 
 .inline_h1 {font-size:24px; font-weight:bold;}
 .inline_h2 {font-size:20px;}
-.inline_h2_grey {font-size:20px; color:#cccccc;}
+.inline_h2_grey {font-size:20px; color:#031217;}
 .inline_h3 {font-size:16px;}
 .inline_h4 {font-size:14px;}
-.headline {font-size:20px; background-color:orange;color:#ffffff;border-color:#000000;padding:8px; font-weight:bold;margin: 0px 0px 0px 0px;}
-.panel_headline {font-size:18px; background-color:#efefef;padding:10px;font-weight:bold;margin: 0px 0px 20px 0px;border-bottom:solid 1px}
+.headline {font-size:20px; background-color:orange;color:#bee4ff;border-color:#093444;padding:8px; font-weight:bold;margin: 0px 0px 0px 0px;}
+.panel_headline {font-size:18px; background-color:#031217;padding:10px;font-weight:bold;margin: 0px 0px 20px 0px;border-bottom:solid 1px}
 .sub-legend {font-size:16px;font-weight:bold; }
 
 /* DATA TABLES */
@@ -166,7 +173,7 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 
 /* FORMATING */
 .owa_largeFormField { font-size:18px;}
-.active_wizard_step {background-color:orange; color:#ffffff;border:1px solid #9f9f9f; padding:5px; font-weight:bold; font-size:16px;}
+.active_wizard_step {background-color:orange; color:#bee4ff;border:1px solid #9f9f9f; padding:5px; font-weight:bold; font-size:16px;}
 .wizard_step {font-weight:bold; font-size:16px;}
 .visitor_info_box {width:40px; height:40px; text-align:center; padding:7px;}
 .owa_visitSummaryLeftCol {width:auto;}
@@ -185,7 +192,7 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 .snippet_anchor {font-size:14px;font-weight:bold;}
 .visit_box_stat {width:42px;}
 .nav_bar{text-decoration:none;}
-.id_box{background-color:green;color:#ffffff;font-style:bold;font-size:18px;padding:6px;}
+.id_box{background-color:green;color:#bee4ff;font-style:bold;font-size:18px;padding:6px;}
 .code {padding:7px;margin:0px 30px 0px 30px;background-color:; border: 1px dashed blue; font-size:10px;}
 .top_level_nav_link{padding:0px 5px 0px 5px; font-size:22px;}
 .visible {display:;}
@@ -211,8 +218,8 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 .validation_error {color:red;}
 
 /* Admin Settings */
-.setting {padding:5px;border:1px solid #cccccc; margin:10px;}
-.setting .description {border:0px solid #cccccc; font-size:12px; padding: 2px 0 2px 0;}
+.setting {padding:5px;border:1px solid #031217; margin:10px;}
+.setting .description {border:0px solid #031217; font-size:12px; padding: 2px 0 2px 0;}
 .setting .title {font-weight:bold; font-size:16px; padding: 2px 0 2px 0;}
 .setting .field {padding: 2px 0 2px 0;}
 
