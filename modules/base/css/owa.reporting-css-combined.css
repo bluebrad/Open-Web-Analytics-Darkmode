@@ -1,16 +1,4 @@
-/* OWA owa.reporting-css package file created Mon, 20 Apr 20 15:24:54 -0700 */ 
-
-/* Start of jqueryui */ 
-
-/*
- * jQuery UI CSS Framework 1.8.12
- *
- * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Theming/API
- */
+/* updated to OWA DARKMODE FROM BLUEBRAD */
 
 /* Layout helpers
 ----------------------------------*/
@@ -63,19 +51,19 @@
 .ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
 .ui-widget .ui-widget { font-size: 1em; }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif; font-size: 1em; }
-.ui-widget-content { border: 1px solid #aaaaaa; background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x; color: #222222; }
-.ui-widget-content a { color: #222222; }
-.ui-widget-header { border: 1px solid #aaaaaa; background: #cccccc url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x; color: #222222; font-weight: bold; }
-.ui-widget-header a { color: #222222; }
+.ui-widget-content { border: 1px solid #093444; background: #04171e; color: #bee4ff; }
+.ui-widget-content a { color: #bee4ff; }
+.ui-widget-header { border: 1px solid #093444; background: #04171e url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x; color: #29baf0; font-weight: bold; }
+.ui-widget-header a { color: #bee4ff; }
 
 /* Interaction states
 ----------------------------------*/
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #d3d3d3; background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #555555; }
-.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555555; text-decoration: none; }
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999; background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #212121; }
-.ui-state-hover a, .ui-state-hover a:hover { color: #212121; text-decoration: none; }
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa; background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #212121; }
-.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121; text-decoration: none; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #093444; background: #04171e; font-weight: normal; color: #bee4ff; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #093444; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999; background: #031217; font-weight: normal; color: #bee4ff; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #bee4ff; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa; background: #04171e; font-weight: normal; color: #bee4ff; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #bee4ff; text-decoration: none; }
 .ui-widget :active { outline: none; }
 
 /* Interaction Cues
@@ -634,30 +622,19 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
   *display: inline;
 }
 .chzn-container .chzn-drop {
-  background: #fff;
-  border: 1px solid #aaa;
+  background: #031217;
+  border: 1px solid #093444;
   border-top: 0;
   position: absolute;
   top: 29px;
   left: 0;
-  -webkit-box-shadow: 0 4px 5px rgba(0,0,0,.15);
-  -moz-box-shadow   : 0 4px 5px rgba(0,0,0,.15);
-  -o-box-shadow     : 0 4px 5px rgba(0,0,0,.15);
-  box-shadow        : 0 4px 5px rgba(0,0,0,.15);
   z-index: 999;
 }
 /* @end */
 
 /* @group Single Chosen */
 .chzn-container-single .chzn-single {
-  background-color: #ffffff;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f4f4f4), color-stop(0.48, #eeeeee), color-stop(0.5, #f6f6f6), color-stop(0.8, #ffffff));
-  background-image: -webkit-linear-gradient(center bottom, #f4f4f4 0%, #eeeeee 48%, #f6f6f6 50%, #ffffff 80%);
-  background-image: -moz-linear-gradient(center bottom, #f4f4f4 0%, #eeeeee 48%, #f6f6f6 50%, #ffffff 80%);
-  background-image: -o-linear-gradient(top, #f4f4f4 0%, #eeeeee 48%, #f6f6f6 50%, #ffffff 80%);
-  background-image: -ms-linear-gradient(top, #f4f4f4 0%, #eeeeee 48%, #f6f6f6 50%, #ffffff 80%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
-  background-image: linear-gradient(top, #f4f4f4 0%, #eeeeee 48%, #f6f6f6 50%, #ffffff 80%);
+  background-color: #051b24;
   -webkit-border-radius: 5px;
   -moz-border-radius   : 5px;
   border-radius        : 5px;
@@ -675,7 +652,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
   height: 23px;
   line-height: 23px;
   padding: 0 0 0 8px;
-  color: #444444;
+  color: #2ba9ff;
   text-decoration: none;
 }
 .chzn-container-single .chzn-single span {
@@ -871,15 +848,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
   display: list-item;
 }
 .chzn-container .chzn-results .highlighted {
-  background-color: #3875d7;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, #2a62bc), color-stop(0.8, #3875d7));
-  background-image: -webkit-linear-gradient(center bottom, #2a62bc 10%, #3875d7 80%);
-  background-image: -moz-linear-gradient(center bottom, #2a62bc 10%, #3875d7 80%);
-  background-image: -o-linear-gradient(bottom, #2a62bc 10%, #3875d7 80%);
-  background-image: -ms-linear-gradient(top, #2a62bc 10%, #3875d7 80%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a62bc', endColorstr='#3875d7',GradientType=0 );
-  background-image: linear-gradient(top, #2a62bc 10%, #3875d7 80%);
-  color: #fff;
+  background-color: #031217;
+  color: #bee4ff;
 }
 .chzn-container .chzn-results li em {
   background: #feffde;
@@ -1023,23 +993,24 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 
 /* HTML ENTITIES*/
 
-body {border-color:#cccccc; background-color:; font-family:Helvetica,'Arial'; padding:0; margin: 0;font-size:12px;}
+body {border-color:#051b24; background-color:#031217; font-family:Helvetica,'Arial'; padding:0; margin: 0;font-size:12px;Color:#bee4ff;}
 th {padding:6px 6px 6px 6px; text-align:left;}
 td {padding: 2px 2px 2px 2px;}
+
 legend {font-size:16px;font-weight:bold;}
-fieldset{margin: 7px; padding: 20px; border:1px solid #cccccc;}
+fieldset{margin: 7px; padding: 20px; border:1px solid #efefef;}
 div {margin:0;}
 
 .owa a {
-    color: #21759B;
+    color: #2abbf1;
 }
 
 .owa a:hover {
-    color: orange;
+    color: #407aa4;
 }
 
 .owa .section {
-    background-color:#ffffff;
+    background-color:#031217;
     margin:20px;
 }
 
@@ -1058,32 +1029,32 @@ div {margin:0;}
 .post-nav {clear: both; margin:0px; padding:0px 0px 5px 0px;}
 .active_nav_link {background-color:#cccccc;}
 .host_app_nav {background-color:; vertical-align:middle;font-size:18px;padding:4px;}
-#owa_header {border-bottom: 1px solid #9f9f9f; background-color:#FFFFFF; padding:10px; font-size:16px; line-height:55px;}
+#owa_header {border-bottom: 1px solid #031217; background-color:#0a0a0a; padding:10px; font-size:16px; line-height:55px;}
 .owa_logo {float:left;padding-right:30px;  vertical-align: middle;line-height:normal;}
 .owa_navigation {float:left;vertical-align:middle;padding-top:10px;}
 .owa_navigation ul {list-style: none; padding: 0; margin: 0;float:left;padding-top:0px;}
 .owa_navigation li {text-decoration: none; float:left; margin: 2px;}
 .owa_navigation li a {
-    background: url() #fff bottom left repeat-x;
+    background: url() #000 bottom left repeat-x;
     height: 2em;
     line-height: 2em;
     float: left;
     width: 9em;
     display: block;
-    border: 0 solid #efefef;
+    border: 0 solid #2abbf1;
     text-decoration: none;
     text-align: center;
     
 }
 
 .owa_navigation li a:hover {
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid #2abbf1;
    
 }
 
 .owa_current{
 	
-	background-color: #e6e6e6;
+	background-color: #0a374a; Color:#ececec;
 }
 
 .owa_nav_icon {
@@ -1316,7 +1287,7 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 
 /* management table */
 .owa table.management {
-    border:1px solid #9f9f9f;
+    border:1px solid #093444;
     border-spacing: 0px;
     width: 100%;
 
@@ -1325,12 +1296,12 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 .owa table.management th{
     background-color: #efefef;
     min-width: ;
-    border-bottom:1px solid #cecece;
-    border-right:1px solid #cecece;
+    border-bottom:1px solid #093444;
+    border-right:1px solid #093444;
 }
 
 .owa table.management td{
-    background-color: #ffffff;
+    background-color: #04171e;
     font-size: 12px;
     padding: 7px 7px 7px 7px;
     border:0px;
@@ -1400,8 +1371,8 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
     margin: 10px 0 10px 0;
     font-size: 18px;
     font-weight: ;
-    color: #666666;
-    border-top: 3px solid #cccccc;
+    color: #bee4ff;
+    border-top: 3px solid #093444;
 }
 
 .owa_reportHeadline {
@@ -1409,13 +1380,13 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
     font-family: Helvetica, Arial, sans-serif;
     font-size:20px;
     margin: 10px 0 10px 0;
-    color: #505050;
+    color: #bee4ff;
 }
 
 .reportSectionContainer {
     margin: 20px;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #051b24;
    
     
 }
@@ -1423,7 +1394,7 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 .owa_reportSectionContent {
     margin: 0 10px 0 10px;
     padding:0px 7px 7px 0px;
-    background-color: #ffffff;
+    background-color: #051b24;
     width:auto;
 }
 
@@ -1513,7 +1484,7 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 #owa_reportPeriodControl table {border: 1px solid #cccccc;  padding: 0px; border-collapse: collapse;}
 
 
-#owa_reportPeriodFiltersContainer {background-color: #efefef; width:100%;}
+#owa_reportPeriodFiltersContainer {background-color: #031217; width:100%;}
 
 /*#owa_reportPeriodFiltersContainer td, th {padding:7px; text-align: left;}*/
 #owa_reportPeriodFiltersContainer .picker { padding-left:15px;}
@@ -1523,7 +1494,7 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 #owa_reportNavPanel {}
 #report_top_level_nav_ul {width:;}
 
-.owa_reportLeftNavColumn {width:200px; margin-right:0px; border-right: 0px solid #cccccc;}
+.owa_reportLeftNavColumn {width:200px; margin-right:0px; border-right: 0px solid #0a0a0a;}
 .owa_reportLeftNavColumn a {
     text-decoration: none;
     color:;
@@ -1533,10 +1504,10 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 .owa_visitSummaryInfobox {border: 1px solid #cccccc; border-left: 5px solid orange; text-align: left; padding:5px; margin-bottom:5px;}
 
 .owa_metricInfobox, .owa .action_infobox {
-    color:#505050;
-    background-color: #ffffff;
+    color:#1c7fa4;
+    background-color: #051b24;
     text-align: left;
-    border: 1px solid #cccccc;
+    border: 1px solid #0e4357;
     padding:0px;
     margin:3px;
     min-width:110px;
@@ -1552,14 +1523,14 @@ td#panel {margin: 0px; padding-top:0px;width:;border-collapse: collapse;border:0
 }
 
 p.owa_metricInfoboxLabel, span.owa_metricInfoboxLabel, .owa .action_infobox .action_name  {
-    color:#666666;
+    color:#bee4ff;
     font-size:12px;
     padding-top:6px;
     margin-bottom:0px;
 }
 
 p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_infobox .action_value {
-    color:#505050;
+    color:#bee4ff;
     font-size:28px;
     padding-bottom: 0px;
     font-family: "Helvetica";
@@ -1619,9 +1590,9 @@ p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_
 }
 
 .owa_visitInfobox {
-    color:#9f9f9f;
-    background-color: #505050;
-    border:1px solid #cccccc;
+    color:#29baf0;
+    background-color: #031217;
+    border:1px solid #093444;
     text-align: left;
     padding:5px;
     margin:5px;
@@ -1634,8 +1605,8 @@ p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_
 }
 
 .owa_visitInfoboxItemContainer, .owa_visitInfoboxItem   {
-    background-color: #ffffff;
-    border: 0px solid #A0A0A0;
+    background-color: #031217;
+    border: 0px solid #093444;
     border-collapse: collapse;
 }
 
@@ -1645,19 +1616,19 @@ p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_
 
 .owa_visitInfoboxItem   {
     text-align:center;
-    border-left: 1px solid #efefef;
-    border-right: 1px solid #efefef;
+    border-left: 1px solid #093444;
+    border-right: 1px solid #093444;
 }
 
 .owa_visitInfoboxTitle {
-    color:#A0A0A0;
+    color:#bee4ff;
     padding:6px;
     font-size:12px;
     margin:0px;
 }
 
 .owa_userInfobox {
-    background-color: #ffffff;
+    background-color: #04171e;
 }
 
 .owa_avatar {
@@ -1689,7 +1660,7 @@ p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_
 }
 
 .owa_visitInfoboxDocContainer {
-    background-color: #efefef;
+    background-color: #04171e;
     border: 1px solid #E0E0E0;
     border-collapse: collapse;
     width:100%;
@@ -1767,12 +1738,12 @@ p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_
 
 .owa_dimensionGridCell a {
     text-decoration: none;
-    color: blue;
+    color: #2ba9ff;
 }
 
 .owa_dimensionGridCell a:hover{
     text-decoration: underline;
-    color: blue;
+    color: #093444;
 }
 
 .simpleTable {
@@ -1781,9 +1752,9 @@ p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_
 }
 
 .simpleTable th {
-    background-color: #efefef;
-    border-bottom: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
+    background-color: #04171e;
+    border-bottom: 1px solid #093444;
+    border-right: 1px solid #093444;
     padding: 4px 5px 4px 5px;
 }
 
@@ -2026,10 +1997,10 @@ p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_
 
     font-size: 12px;
     width:auto;
-    border: 1px solid #B0B0B0;
+    border: 1px solid #093444;
     padding: 0px;
     margin-bottom:3px;
-    background-color: #fafafa;
+    background-color: #04171e;
 
 }
 
@@ -2053,15 +2024,15 @@ p.owa_metricInfoboxLargeNumber, span.owa_metricInfoboxLargeNumber, .owa .action_
 
     margin:15px;
     padding:10px;
-    background-color: #ffffff;
-    border: 1px solid #9f9f9f;
+    background-color: #031217;
+    border: 1px solid #0a374a;
 }
 
 li.constraintRow {
     width:700px;
     padding:20px;
-    border: 1px solid #9f9f9f;
-    background-color: #fafafa;
+    border: 1px solid #04171e;
+    background-color: #0a374a;
 }
 
 .constraintRow .constraintOperatorPicker, .constraintRow .constraintDimensionPicker {
@@ -2115,7 +2086,7 @@ li.constraintRow {
 .owa .propertyList dl {
     width:100%;
      overflow:hidden;
-     background: #efefef;
+     background: #031217;
      padding:0;
       margin:0;
       font-size:12px;
@@ -2125,9 +2096,9 @@ li.constraintRow {
 .owa .propertyList dt {
     float:left;
      width:100px; /* adjust the width; make sure the total of both is 100% */
-     background:#6AA9CF;
-     border: 1px solid #6AA9CF;
-     color: #ffffff;
+     background:#093444;
+     border: 1px solid #093444;
+     color: #bee4ff;
      padding:4px 5px 4px 5px;
      margin:0;
      border-top-left-radius: 5px;
